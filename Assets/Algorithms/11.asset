@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62d35f9512f9ecc419fc7fcfc1b8d5f3, type: 3}
+  m_Name: 11
+  m_EditorClassIdentifier: 
+  Octaves: 10
+  Persistance: 0.858
+  Lacunarity: 1.25
+  NoiseScale: 111
+  Offset: {x: 0, y: 0}
+  ApplyIslandGradient: 1
+  MoisureOctaves: 4
+  MoisurePersistance: 3
+  MoisureLacunarity: 1.25
+  MoisureNoiseScale: 111
+  MoisureOffset: {x: 0, y: 0}
+  TileTypes:
+  - Height: 0
+    MoisureValues:
+    - MoisureHeight: 0.133
+      GroundTile: 1
+    - MoisureHeight: 0.369
+      GroundTile: 2
+    - MoisureHeight: 0.476
+      GroundTile: 3
+  - Height: 0.3
+    MoisureValues:
+    - MoisureHeight: 0.472
+      GroundTile: 6
+    - MoisureHeight: 0.764
+      GroundTile: 7
